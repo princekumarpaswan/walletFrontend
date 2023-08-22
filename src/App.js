@@ -12,6 +12,7 @@ function App() {
   const [wallet, setWallet] = useState(null);
   const [seedPhrase, setSeedPhrase] = useState(null);
   const [selectedChain, setSelectedChain] = useState("0x1");
+  const [sel,setSel] = useState(1)
 
   return (
     <div className="App">
